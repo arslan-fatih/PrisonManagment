@@ -76,7 +76,7 @@ namespace PrisonManagment.Pages.Sections
             // 
             // search_bar
             // 
-            search_bar.Location = new Point(333, 23);
+            search_bar.Location = new Point(333, 12);
             search_bar.Name = "search_bar";
             search_bar.PlaceholderText = "Search...";
             search_bar.Size = new Size(125, 27);
@@ -99,7 +99,7 @@ namespace PrisonManagment.Pages.Sections
             Name = "inmate_form";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "inmate_form";
-            Load += inmate_form_Load_1;
+            Load += inmate_form_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

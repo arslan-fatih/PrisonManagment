@@ -34,6 +34,7 @@
             InmateButton = new Button();
             staffButton = new Button();
             lblSidebarTitle = new Label();
+            Cell = new Button();
             panelSidebar.SuspendLayout();
             SuspendLayout();
             // 
@@ -42,6 +43,7 @@
             panelSidebar.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panelSidebar.AutoSize = true;
             panelSidebar.BackColor = Color.DarkSlateGray;
+            panelSidebar.Controls.Add(Cell);
             panelSidebar.Controls.Add(inventoryButton);
             panelSidebar.Controls.Add(InmateButton);
             panelSidebar.Controls.Add(staffButton);
@@ -111,11 +113,26 @@
             lblSidebarTitle.Text = "PRISON MANAGEMENT SYSTEM";
             lblSidebarTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // Cell
+            // 
+            Cell.Cursor = Cursors.Hand;
+            Cell.Dock = DockStyle.Top;
+            Cell.FlatAppearance.BorderSize = 0;
+            Cell.FlatStyle = FlatStyle.Flat;
+            Cell.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            Cell.ForeColor = Color.White;
+            Cell.Location = new Point(0, 278);
+            Cell.Name = "Cell";
+            Cell.Size = new Size(180, 29);
+            Cell.TabIndex = 11;
+            Cell.Text = "Cell";
+            Cell.UseVisualStyleBackColor = true;
+            Cell.Click += Cell_Click;
+            // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            
             BackgroundImage = Properties.Resources.Untitled_design;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(804, 450);
@@ -125,7 +142,6 @@
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Main Menu";
-           
             panelSidebar.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -138,5 +154,6 @@
         private Button InmateButton;
         private Button staffButton;
         private Label lblSidebarTitle;
+        private Button Cell;
     }
 }

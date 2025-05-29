@@ -1,3 +1,4 @@
+using PrisonManagment.Pages;
 using PrisonManagment.Pages.Sections;
 using System;
 using System.Drawing;
@@ -28,9 +29,9 @@ namespace PrisonManagment
             panelMainContent.Controls.Add(uc);
         }
 
-       
 
-       
+
+
 
         private void btnStaff_Click(object sender, EventArgs e)
         {
@@ -55,9 +56,19 @@ namespace PrisonManagment
         private void inventoryButton_Click(object sender, EventArgs e)
         {
             Form currentForm = this.FindForm();
-            inventory_form inventory_Form  = new inventory_form();
+            inventory_form inventory_Form = new inventory_form();
             this.Hide();
             inventory_Form.ShowDialog();
+            this.Close();
+
+        }
+
+        private void Cell_Click(object sender, EventArgs e)
+        {
+            Form currentForm = this.FindForm();
+            cell_form cellForm = new cell_form();
+            this.Hide();
+            cellForm.ShowDialog();
             this.Close();
 
         }

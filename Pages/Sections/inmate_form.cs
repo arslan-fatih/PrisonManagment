@@ -71,10 +71,5 @@ namespace PrisonManagment.Pages.Sections
             add_inmate_form.ShowDialog();
             this.Close();
         }
-
-        private void inmate_form_Load_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
