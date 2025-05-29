@@ -2,82 +2,71 @@
 {
     partial class cell_form
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
-            {
                 components.Dispose();
-            }
             base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cell_form));
-            dataGridView1 = new DataGridView();
-            back_button = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.back_button = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(0, 56);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(800, 395);
-            dataGridView1.TabIndex = 8;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 56);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 29;
+            this.dataGridView1.Size = new System.Drawing.Size(800, 395);
+            this.dataGridView1.TabIndex = 0;
             // 
             // back_button
             // 
-            back_button.BackColor = Color.Transparent;
-            back_button.BackgroundImage = Properties.Resources.back;
-            back_button.BackgroundImageLayout = ImageLayout.Stretch;
-            back_button.Cursor = Cursors.Hand;
-            back_button.Location = new Point(0, 0);
-            back_button.Name = "back_button";
-            back_button.Size = new Size(50, 50);
-            back_button.TabIndex = 9;
-            back_button.UseVisualStyleBackColor = false;
-            back_button.Click += back_button_Click;
+            this.back_button.BackColor = System.Drawing.Color.Transparent;
+            this.back_button.BackgroundImage = global::PrisonManagment.Properties.Resources.back;
+            this.back_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.back_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.back_button.Location = new System.Drawing.Point(0, 0);
+            this.back_button.Name = "back_button";
+            this.back_button.Size = new System.Drawing.Size(50, 50);
+            this.back_button.TabIndex = 1;
+            this.back_button.UseVisualStyleBackColor = false;
+            this.back_button.Click += new System.EventHandler(this.back_button_Click);
             // 
             // cell_form
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Untitled_design;
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
-            Controls.Add(back_button);
-            Controls.Add(dataGridView1);
-            DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "cell_form";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Cell";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PrisonManagment.Properties.Resources.Untitled_design;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.back_button);
+            this.Controls.Add(this.dataGridView1);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "cell_form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cell";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
-        private Button back_button;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button back_button;
     }
 }

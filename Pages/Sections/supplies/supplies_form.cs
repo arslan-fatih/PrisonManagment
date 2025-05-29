@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +25,7 @@ namespace PrisonManagment.Pages.Sections
         {
 
             // 1) SQL’den veriyi çek
-            _suppliesTable = Database.GetAllSuppliers();
+            _suppliesTable = Database.GetAllSupplies();
 
             // 2) BindingSource hazırla
             _bs = new BindingSource { DataSource = _suppliesTable };
