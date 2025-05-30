@@ -180,10 +180,18 @@ namespace PrisonManagment.Pages.Sections
             // 
             // back_button
             // 
-            this.back_button.Location = new System.Drawing.Point(610, 380);
+            this.back_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.back_button.BackColor = System.Drawing.Color.FromArgb(45, 66, 91);
+            this.back_button.FlatAppearance.BorderSize = 0;
+            this.back_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.back_button.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back_button.ForeColor = System.Drawing.Color.White;
+            this.back_button.Location = new System.Drawing.Point(842, 550);
+            this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(150, 40);
-            this.back_button.Text = "Back";
-            this.back_button.UseVisualStyleBackColor = true;
+            this.back_button.TabIndex = 5;
+            this.back_button.Text = "← Back to Menu";
+            this.back_button.UseVisualStyleBackColor = false;
             this.back_button.Click += new System.EventHandler(this.back_button_Click);
 
             // 
