@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4f7e99d-a639-4959-9dbf-34ad3f911d66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/add_block_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/add_block_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/add_block_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/delete_block_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/delete_block_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/delete_block_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/update_block_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/update_block_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/blocks/update_block_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/add_cell_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/add_cell_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/add_cell_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/delete_cell_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/delete_cell_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/delete_cell_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/update_cell_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/update_cell_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/cell/update_cell_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/add_house_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/add_house_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/add_house_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/delete_house_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/delete_house_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/delete_house_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/update_house_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/update_house_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/houses/update_house_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/add_inventory_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/add_inventory_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/add_inventory_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/delete_inventory_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/delete_inventory_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/delete_inventory_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/update_inventory_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/update_inventory_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/inventory/update_inventory_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/add_medical_record_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/add_medical_record_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/add_medical_record_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/delete_medical_record_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/delete_medical_record_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/delete_medical_record_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/update_medical_record_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/update_medical_record_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/update_medical_record_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/add_supplier_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/add_supplier_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/add_supplier_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/delete_supplier_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/delete_supplier_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/delete_supplier_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/update_supplier_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/update_supplier_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplier/update_supplier_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/add_supply_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/add_supply_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/add_supply_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/delete_supply_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/delete_supply_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/delete_supply_form.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/update_supply_form.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/update_supply_form.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Sections/supplies/update_supply_form.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/blocks/blocks_form.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/blocks/blocks_form.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/blocks/blocks_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/blocks/blocks_form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/cell/cell_form.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/cell/cell_form.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/cell/cell_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/cell/cell_form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/houses/houses_form.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/houses/houses_form.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/houses/houses_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/houses/houses_form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/inventory/inventory_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/inventory/inventory_form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/medicalRecords/medical_records_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/medicalRecords/medical_records_form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/supplier/supplier_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/supplier/supplier_form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Sections/supplies/supplies_form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sections/supplies/supplies_form.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kagankarki"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/arslan-fatih/PrisonManagment.git",
+    "accountId": "ebc55aa7-08b3-4882-b257-b9c827cb6eb2"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2xoJqWnYTplGbYTSq9SbikdJol9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp/VsProjects/PrisonManagment",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4f7e99d-a639-4959-9dbf-34ad3f911d66" name="Changes" comment="" />
+      <created>1748598683730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748598683730</updated>
+    </task>
+    <servers />
+  </component>
+</project>

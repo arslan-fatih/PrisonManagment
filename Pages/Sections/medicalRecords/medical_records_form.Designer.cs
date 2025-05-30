@@ -1,4 +1,4 @@
-﻿namespace PrisonManagment.Pages.Sections
+namespace PrisonManagment.Pages.Sections
 {
     partial class Medical_Record
     {
@@ -31,6 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Medical_Record));
             back_button = new Button();
             dataGridView1 = new DataGridView();
+            search_bar = new TextBox();
+            btnAddRecord = new Button();
+            btnUpdateRecord = new Button();
+            btnDeleteRecord = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -52,11 +56,50 @@
             // 
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(0, 56);
+            dataGridView1.Location = new Point(0, 100);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(800, 395);
+            dataGridView1.Size = new Size(800, 350);
             dataGridView1.TabIndex = 7;
+            // 
+            // search_bar
+            // 
+            search_bar.Location = new Point(100, 60);
+            search_bar.Name = "search_bar";
+            search_bar.PlaceholderText = "Search...";
+            search_bar.Size = new Size(250, 27);
+            search_bar.TabIndex = 8;
+            search_bar.TextChanged += search_bar_TextChanged;
+            // 
+            // btnAddRecord
+            // 
+            btnAddRecord.Location = new Point(400, 60);
+            btnAddRecord.Name = "btnAddRecord";
+            btnAddRecord.Size = new Size(94, 29);
+            btnAddRecord.TabIndex = 9;
+            btnAddRecord.Text = "Add";
+            btnAddRecord.UseVisualStyleBackColor = true;
+            btnAddRecord.Click += btnAddRecord_Click;
+            // 
+            // btnUpdateRecord
+            // 
+            btnUpdateRecord.Location = new Point(510, 60);
+            btnUpdateRecord.Name = "btnUpdateRecord";
+            btnUpdateRecord.Size = new Size(94, 29);
+            btnUpdateRecord.TabIndex = 10;
+            btnUpdateRecord.Text = "Update";
+            btnUpdateRecord.UseVisualStyleBackColor = true;
+            btnUpdateRecord.Click += btnUpdateRecord_Click;
+            // 
+            // btnDeleteRecord
+            // 
+            btnDeleteRecord.Location = new Point(620, 60);
+            btnDeleteRecord.Name = "btnDeleteRecord";
+            btnDeleteRecord.Size = new Size(94, 29);
+            btnDeleteRecord.TabIndex = 11;
+            btnDeleteRecord.Text = "Delete";
+            btnDeleteRecord.UseVisualStyleBackColor = true;
+            btnDeleteRecord.Click += btnDeleteRecord_Click;
             // 
             // Medical_Record
             // 
@@ -65,6 +108,10 @@
             BackgroundImage = Properties.Resources.Untitled_design;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnDeleteRecord);
+            Controls.Add(btnUpdateRecord);
+            Controls.Add(btnAddRecord);
+            Controls.Add(search_bar);
             Controls.Add(dataGridView1);
             Controls.Add(back_button);
             DoubleBuffered = true;
@@ -81,5 +128,9 @@
 
         private Button back_button;
         private DataGridView dataGridView1;
+        private TextBox search_bar;
+        private Button btnAddRecord;
+        private Button btnUpdateRecord;
+        private Button btnDeleteRecord;
     }
 }
